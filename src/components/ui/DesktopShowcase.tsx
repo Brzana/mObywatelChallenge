@@ -1,5 +1,3 @@
-import { ArrowRight } from "lucide-react";
-
 const STEPS = [
   {
     title: "Wybierz pojazd",
@@ -63,30 +61,6 @@ export default function DesktopShowcase() {
           </li>
         ))}
       </ol>
-
-      <div className="relative bg-moby-inkDeep mt-6 p-5 rounded-[20px] overflow-hidden text-white">
-        <div
-          aria-hidden="true"
-          className="-top-10 -right-10 absolute bg-[radial-gradient(circle,#DC143C_0,rgba(220,20,60,0)_70%)] opacity-60 rounded-full w-[140px] h-[140px]"
-        />
-        <p className="relative font-bold text-[12px] text-moby-accentSoft uppercase tracking-[0.06em]">
-          Twój obowiązek
-        </p>
-        <p className="relative mt-1.5 font-semibold text-[18px] leading-[1.25]">
-          Masz 30 dni na zgłoszenie zbycia.
-        </p>
-        <p className="relative mt-1.5 text-[14px] text-white/75 leading-[1.45]">
-          Zgłoś zbycie w telefonie. Bez papierów, bez kolejki i bez Profilu
-          Zaufanego.
-        </p>
-        <a
-          href="#/"
-          className="inline-flex relative items-center gap-2 bg-moby-accent hover:bg-moby-accentDark mt-3 px-3.5 py-2.5 rounded-[12px] font-bold text-[14px] text-white transition"
-        >
-          Przejdź do demo
-          <ArrowRight className="w-4 h-4" aria-hidden="true" />
-        </a>
-      </div>
 
       <p className="mt-4 text-[12px] text-moby-inkMuted leading-[1.5]">
         Prototyp demonstracyjny. Nie jest to oficjalna aplikacja mObywatel ani
